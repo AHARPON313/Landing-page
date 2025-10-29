@@ -82,10 +82,7 @@ html,body{
      transform: translate(0%, -50%);
     display: flex;
     justify-content: space-between;
-    width: 100%;
-
-   
-    
+    width: 100%; 
 
 }
 
@@ -101,11 +98,19 @@ html,body{
 #heroleft .elem h1{
     line-height: .9;
     font-family: "kajiro";
-    color: #fff;
     font-weight: 100;
     font-size: 9vw;
 
+}
 
+
+#nleft a{
+    color: black;
+}
+
+.elem h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
 }
 
 #heroleft button{
@@ -115,8 +120,14 @@ html,body{
     font-family: "kajiro";
     font-size: 3vw ;
     margin-top:2vw ;
+    background-color: black;
+    border: none;
+    color: white;
 }
 
+#nright a{
+    color: black;
+}
 
 #heroright{
     width: 17%;
@@ -131,6 +142,7 @@ html,body{
     text-align: right;
     font-size: 14px;
     font-weight: 300;
+    color: black;
 
  }  
 
